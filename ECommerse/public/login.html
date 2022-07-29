@@ -1,0 +1,81 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In Web Page</title>
+        <!-- we can link other external CSS, Javascript files, external fonts-->
+        <!-- links for Media Query
+    </head> 
+
+   <!-- <body>
+        <h3>Login</h3>
+        <a href="/index.html">Home</a>| <a href="/catalog.html">Gallery</a>| <a href="/about.html">About us</a> | <a href="/services.html">Services</a> | <a href="/login.html">SignIn</a>
+        | <a href="/register.html">register</a>
+        <form method="post" action="/api/login">
+            <table>
+            
+                <tr>
+                    <td> Email</td>
+                    <td> <input type="email" name="email"required/></td>
+                </tr>
+                <tr>
+                    <td> Password</td>
+                    <td> <input type="password"name="password" required/></td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td>  <button type="submit">login</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+-->
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+
+       <title>Login Web page</title>
+       <link rel="stylesheet" href="./styles/style.css">
+       <script src="./scripts/app.js"></script>
+
+   </head>
+
+   <body>
+
+        <table>
+
+            <tr>
+
+                <td style="color:red">Email Address:</td>
+
+                <td><input type="email" name="email" id="email" value="ravi.tambade@transflower.in" required placeholder="Enter your email here"/></td>
+
+            </tr>
+
+            <tr>
+
+                <td style="color:blue">Password:</td>
+
+                <td><input type="password" name="password" id="password"  placeholder="Enter your password here" required /></td>
+
+            </tr>
+
+            <tr>
+
+                <td> </td>
+
+                <td><input type="button"   id="btnlogin"  value="login" onclick="validate()"/></td>
+
+            </tr>
+
+           </table>
+
+           <a href="/forgotpassword.html">Forgot Password </a> | <a href="/register.html">New Customer</a>
+
+           <p id="status"> </p>
+
+   </body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In Web Page</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <script src="./scripts/app.js"></script>
+        <!-- we can link other external CSS, Javascript files, external fonts-->
+        <!-- links for Media Query-->
+    </head>
+
+    <body>
+        <h3>Register new Customer</h3>
+        <a href="/index.html">Home</a>| <a href="/catalog.html">Gallery</a>| <a href="/about.html">About us</a> | <a href="/services.html">Services</a> | <a href="/login.html">SignIn</a>
+        | <a href="/register.html">register</a>
+       
+       <!-- <form method="post" action="/api/register">-->
+            <table>
+                <tr>
+                    <td> First name</td>
+                    <td> <input type="text" name="first"id="first" placeholder="user first name"required/></td>
+                </tr>
+                <tr>
+                    <td>Last last</td>
+                    <td> <input type="text" name="last"id="last" placeholder="user's last name"required/></td>
+                </tr>
+                
+                <tr>
+                    <td> Email</td>
+                    <td> <input type="email" name="email"id="email" placeholder="user Email"required/></td>
+                </tr>
+                <tr>
+                    <td>gender</td>
+                   <td><input type="radio" id="male" name="gender" value="male">
+                  <label for="html">Male</label>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="css">Female</label>
+                 <input type="radio" id="other" name="gender" value="other">
+                 <label for="javascript">Other</label>
+                 </td>
+
+                  </tr>
+                <tr>
+                    <td> Contact</td>
+                    <td> <input type="number" name="number"id="number"maxlength=10 minlength=10 placeholder="contact no." required/></td>
+                </tr>
+                 
+                <tr>
+                    <td> Date of Birth</td>
+                    <td> <input type="date"name="date"id="date"placeholder="date of birth" required/></td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                   <td><input type="radio" id="national" name="india" value="india">
+                  <label for="html">India</label>
+                  <input type="radio" id="national" name="other" value="other">
+                  <label for="css">Other</label>
+                </td>
+
+                  </tr>
+                  <tr>
+                    <td>Location</td>
+                    <td><select id="location" name="location">
+                        <option value="delhi">delhi</option>
+                        <option value="goa">goa</option>
+                        <option value="mumbai">mumbai</option>
+                    </selected></td>
+                </tr>
+                  <tr>
+                      <td>membership</td>
+                      <td><select id="membership" name="membership">
+                          <option value="gold">gold</option>
+                          <option value="silver">silver</option>
+                          <option value="platinum">platinum</option>
+                      </selected></td>
+                  </tr>
+                
+                    <tr>
+                        <td>Interest</td>
+                        <td> <input type="checkbox" id="one"name="one"value="cricket" />Cricket</label>
+                            
+                              <input type="checkbox" id="one"name="two"value="bollyboll" />Bollybol</label>
+                            
+                              <input type="checkbox" id="one" name="three"value="tenis"/>Tenis</label></td>
+                    
+                </tr>
+                <tr>
+                    <td> Password</td>
+                    <td> <input type="password"name="password" id="password"placeholder="password" required/></td>
+                </tr>
+                <tr>
+
+                    <td>  <button onclick="submit()">register</button></td>
+                </tr>
+            </table>
+            <p id="complete"> </p>
+
+     <!--   </form>-->
+    </body>
+</html>
